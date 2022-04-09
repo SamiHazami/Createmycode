@@ -1,0 +1,10 @@
+/* This style sets the width of all images to 100%: */
+img { width: 20% ;height:20%;margin-left:40%;}
+iframe {margin-left:40%;}
+P {color:blueviolet;font-family:Courier;}
+h1 {
+    /*display: inline-block;*/
+    background-color:powderblue;
+    font-family:verdana;
+    font-size:150%; 
+}
