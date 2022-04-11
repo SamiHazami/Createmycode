@@ -1,10 +1,29 @@
 /* This style sets the width of all images to 100%: */
-img { width: 20% ;height:20%;margin-left:40%;}
+img { width: 10% ;height:10%;/*margin-left:40%;*/}
 iframe {margin-left:40%;}
-P {color:blueviolet;font-family:Courier;}
+body {
+/*background-color:rgba(153, 100, 73, 0.646);*/
+background-image:url('donnie-rosie-taO2fC7sxDU-unsplash.jpg');
+background-size:cover;
+}
+P {
+   color:rgb(8, 8, 8);
+   font-weight:900px;
+   font-family:Courier;
+   background-color:rgb(255, 255, 254);
+   border: 2px solid black;
+   border-radius: 12px;
+   padding:5px;
+
+}
 h1 {
     /*display: inline-block;*/
-    background-color:powderblue;
+    border: 2px solid red;
+    border-radius: 12px;
+    padding:5px;
+    text-align: center;
+    /*background-color:powderblue;*/
+    width:10%; 
     font-family:verdana;
     font-size:150%; 
 }
