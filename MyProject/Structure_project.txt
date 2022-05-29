@@ -1,0 +1,7 @@
+In this project I ll do :
+
+A page HTML for a shop where we will show the : 
+
+History of the shop 
+Products of the shop 
+How to contact shop assistant 
