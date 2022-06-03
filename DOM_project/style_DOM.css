@@ -1,15 +1,20 @@
 *{
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 body {
     background-color: #2CB1BC;
     color: white;
     font-family: 'Montserrat',sans-serif;
     font-weight: bold;
+    
+}
+.text_0
+{
+    text-align: center;
 }
 #container {
-    background-color: pink;
+    background-color: rgb(207, 255, 192);
     margin-top: 40px;
     margin-left: 200px;
     margin-right: 200px;
@@ -17,18 +22,25 @@ body {
     display: flex;
     flex-direction: column ;
     justify-content: space-around
+    
 }
-/
 #container h2 {
     align-self: flex-end
 }
 /****************** Products ******************/
-#products{
+#products_1{
     display: flex;
     flex-direction: column;
     background-color: pink;
     color:#2CB1BC
 }
+#products_2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(192, 194, 255);
+    color:#2CB1BC
+}
+
 .product {
     display: flex;
     justify-content: space-between;
@@ -78,8 +90,9 @@ body {
 }
 .image{
     display: block
+    
 }
-  .overlay {
+.overlay {
     position: absolute;
     height: 150px;
     width: 150px;
